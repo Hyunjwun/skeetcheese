@@ -149,18 +149,6 @@ body {
   }
 }
 
-/* SHADOW */
-.shadow {
-  position: absolute;
-  width: 330px;
-  height: 25px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  top: 265px;
-  left: -15px;
-  animation: scale 3s infinite;
-}
-
 @keyframes scale {
   0%, 100% { transform: scaleX(1); }
   50% { transform: scaleX(0.85); }
@@ -188,3 +176,4 @@ body {
     transform: scale(0.75);
   }
 }
+
